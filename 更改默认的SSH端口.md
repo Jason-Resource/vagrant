@@ -5,6 +5,3 @@
      config.vm.network "forwarded_port", guest: 22, host: 2222, id: "ssh", disabled: "true"
      config.vm.network "forwarded_port", guest: 22, host: 3333
 ```
----
-# 测试
-sssssss
