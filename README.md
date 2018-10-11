@@ -1,3 +1,4 @@
+```
 // 新建一个文件夹
 mkdir test
 
@@ -20,3 +21,5 @@ vagrant.exe box list
 
 // 移除box
 vagrant.exe box remove test
+
+```
