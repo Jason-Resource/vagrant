@@ -22,4 +22,6 @@ vagrant.exe box list
 // 移除box
 vagrant.exe box remove test
 
+// 导出box
+vagrant package
 ```
