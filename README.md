@@ -1,4 +1,5 @@
-- (网络设置)[https://pan.baidu.com/s/1uJj8j6SGBq0B5iM094TJow]
+- **[网络设置](https://pan.baidu.com/s/1uJj8j6SGBq0B5iM094TJow)**
+
 ```
 // 新建一个文件夹
 mkdir test
