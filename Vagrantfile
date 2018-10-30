@@ -10,4 +10,8 @@ Vagrant.configure("2") do |config|
 
   # 将windows上的文件夹映射到虚拟机上
   config.vm.synced_folder "E:\\test", "/home/test"
+  
+  # 指定用户名和密码
+  config.ssh.username = "vagrant"
+  config.ssh.password = "vagrant"
 end
