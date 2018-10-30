@@ -9,7 +9,8 @@ vagrant.exe box add test E:/360极速浏览器下载/centos-7-clean.box
 
 // 初始化
 vagrant.exe init
-
+vagrant.exe init test   // 指定box, test是已经加载的box, 可以使用vagrant.exe box list  查看
+ 
 // 启动
 vagrant.exe up
 
