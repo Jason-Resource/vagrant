@@ -6,6 +6,8 @@ Vagrant.configure("2") do |config|
   #config.vm.network "forwarded_port", guest: 22, host: 2222, id:'ssh', disabled:'true'
   #config.vm.network "forwarded_port", guest: 22, host: 22156
 
+  config.vm.network "forwarded_port", guest: 3306, host: 3306
+  
   # 指定虚拟机的IP
   #config.vm.network "public_network", ip: "192.168.11.156"
   
